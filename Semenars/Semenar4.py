@@ -37,3 +37,12 @@ def discriminant (a: int, b:int, c:int):
 
 tuple_ = discriminant(3, 7, 10)
 print(tuple_)
+
+
+# def foo(x):
+#     return x**2
+#
+# arr = [2, 3, 5, 8, 15, 23, 38]
+#
+# new_arr = [(i ,foo(i)) for i in arr if i % 2 == 0]
+# print(new_arr)
