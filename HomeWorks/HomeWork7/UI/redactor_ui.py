@@ -36,11 +36,11 @@ class Ui_win_redactor(object):
         self.btn_ok.setText(_translate("win_redactor", "Ок"))
 
 
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    win_redactor = QtWidgets.QMainWindow()
-    ui = Ui_win_redactor()
-    ui.setupUi(win_redactor)
-    win_redactor.show()
-    sys.exit(app.exec_())
+# if __name__ == "__main__":
+#     import sys
+#     app = QtWidgets.QApplication(sys.argv)
+#     win_redactor = QtWidgets.QMainWindow()
+#     ui = Ui_win_redactor()
+#     ui.setupUi(win_redactor)
+#     win_redactor.show()
+#     sys.exit(app.exec_())
